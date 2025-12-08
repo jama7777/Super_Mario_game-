@@ -35,7 +35,7 @@ body {
   color: #fff;
   text-shadow: 2px 2px 0 #000, 4px 4px 0 rgba(0,0,0,0.2);
   font-size: 2.5rem;
-  margin: 0 0 10px 0;
+  margin: 0;
   font-weight: 900;
   letter-spacing: 2px;
   background: #e52521;
@@ -43,6 +43,39 @@ body {
   border-radius: 20px;
   border: 3px solid #fff;
   box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+}
+
+.camera-controls {
+    display: flex;
+    align-items: center;
+    background: #fff;
+    border-radius: 20px;
+    border: 3px solid #1976D2;
+    overflow: hidden;
+    box-shadow: 0 4px 0 rgba(0,0,0,0.2);
+}
+
+.cam-btn {
+    background: #1976D2;
+    color: #fff;
+    border: none;
+    padding: 8px 12px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.cam-btn:active {
+    background: #115293;
+}
+
+.cam-label {
+    color: #1976D2;
+    padding: 0 15px;
+    font-weight: 900;
+    font-size: 1rem;
+    min-width: 120px;
+    text-align: center;
 }
 
 .canvas-wrapper {
